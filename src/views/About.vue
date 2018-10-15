@@ -1,16 +1,29 @@
 <template>
   <div class="about">
-    <h1>{{ created }}This is an about page</h1>
+    <h1>This is an about page</h1>
+    <ul id="example-1">
+      <li v-for="film in allFilms" :key="film.episode_id">
+        {{ film.title }}
+        </li>
+      </ul>
+    <!-- <div>{{ starships [0] }}</div> -->
   </div>
 </template>
 <script>
 import { films } from "../assets/films";
+// New Addition -- 
+// import { starships } from '../assets/starships'
+
 export default {
-  created: function() {
-    console.log(films); // Text goes here
+  data: function() {
+    return {
+      allFilms: films,
+      // starships
+    }
   }
 }
 </script>
 <style>
+
 
 </style>
