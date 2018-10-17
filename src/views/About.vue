@@ -1,29 +1,48 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <div class="cards">
+    <h1>Star Wars Films</h1>
     <ul id="example-1">
       <li v-for="film in allFilms" :key="film.episode_id">
         {{ film.title }}
         </li>
       </ul>
-    <!-- <div>{{ starships [0] }}</div> -->
+    </div> 
+    <div class="cards">
+      <h1>Top Starships</h1>
+      <ul id="example-1">
+        <li v-for="shipNames in starships" :key="shipNames.name">
+        {{ shipNames.name }}
+      </li>
+      </ul> 
+      </div>
   </div>
 </template>
 <script>
 import { films } from "../assets/films";
-// New Addition -- 
-// import { starships } from '../assets/starships'
+import { starships } from '../assets/starships'
 
 export default {
   data: function() {
     return {
       allFilms: films,
-      // starships
+      starships
     }
   }
 }
 </script>
 <style>
-
+li {
+  list-style-type: none;
+}
+.cards {
+  display: block;
+  width: 400px;
+  border: 1px solid #ccc;
+  padding: 5%;
+  border-radius: 25px;
+  margin: 3%;
+  float: left;
+}
 
 </style>
