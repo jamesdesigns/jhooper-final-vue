@@ -47,7 +47,8 @@ export default {
     return {
       allFilms: films,
       starships,
-      planets
+      planets,
+      height: 350px
     }
   }
 }
