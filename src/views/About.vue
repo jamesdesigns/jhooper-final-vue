@@ -36,13 +36,12 @@ li {
   list-style-type: none;
 }
 .cards {
-  display: block;
-  width: 400px;
+  display: flex;
+  flex-direction: row;
   border: 1px solid #ccc;
   padding: 5%;
   border-radius: 25px;
   margin: 3%;
-  float: left;
 }
 
 </style>
