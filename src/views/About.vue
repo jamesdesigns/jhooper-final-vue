@@ -37,7 +37,7 @@ li {
 }
 .cards {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   border: 1px solid #ccc;
   padding: 5%;
   border-radius: 25px;

@@ -9,7 +9,7 @@
 
     <v-footer
     height="auto"
-    color="blue lighten-1"
+    color="teal lighten-1"
   >
     <v-layout
       justify-center
@@ -48,9 +48,6 @@
       links: [
         'Home',
         'About Us',
-        'Team',
-        'Services',
-        'Blog',
         'Contact Us'
       ]
     })
