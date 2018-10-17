@@ -20,7 +20,8 @@
 <v-container grid-list-xl>
   <v-layout row wrap>
     <v-flex v-for="ship in starships" :key="ship.model" xs4>
-      <v-card>
+      <v-card
+      height="225px">
         <v-card-title primary-title>
           <div>
             <h3 class="headline mb-0">{{ ship.name }}</h3>
@@ -48,7 +49,6 @@ export default {
       allFilms: films,
       starships,
       planets,
-      height: 350px
     }
   }
 }
