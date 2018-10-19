@@ -29,6 +29,11 @@
             <span>{{ ship.manufacturer }}</span>
            </div>  
         </v-card-title>
+
+ <div class="text-xs-center">
+    <v-rating v-model="rating"></v-rating>
+  </div>
+
         <v-card-action>
           <v-btn flat color="blue">Search</v-btn>
           </v-card-action>
@@ -49,6 +54,7 @@ export default {
       allFilms: films,
       starships,
       planets,
+      rating: 3
     }
   }
 }
