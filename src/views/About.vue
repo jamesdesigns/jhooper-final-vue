@@ -30,9 +30,7 @@
            </div>  
         </v-card-title>
 
- <div class="text-xs-center">
-    <v-rating v-model="rating"></v-rating>
-  </div>
+
 
         <v-card-action>
           <v-btn flat color="blue">Search</v-btn>
@@ -53,8 +51,7 @@ export default {
     return {
       allFilms: films,
       starships,
-      planets,
-      rating: 3
+      planets
     }
   }
 }
