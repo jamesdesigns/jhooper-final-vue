@@ -12,6 +12,12 @@ export default new Router({
       component: Home
     },
     {
+      path: "/layout",
+      name: "Layout",
+      component: Layout
+
+    },
+    {
       path: "/about",
       name: "about",
       // route level code-splitting
