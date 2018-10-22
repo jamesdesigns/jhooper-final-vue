@@ -22,6 +22,7 @@
     <v-flex v-for="ship in starships" :key="ship.model" xs4>
       <v-card
       height="225px">
+
         <v-card-title primary-title>
           <div>
             <h3 class="headline mb-0">{{ ship.name }}</h3>
@@ -71,5 +72,6 @@ li {
 span {
   color: teal;
 }
+
 
 </style>
