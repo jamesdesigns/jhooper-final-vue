@@ -5,6 +5,8 @@
   </v-toolbar>
   <v-content>
     <v-container fluid>
+
+        <div>My content goes here</div>
       <router-view>Router-View</router-view>
     </v-container>
   </v-content>
