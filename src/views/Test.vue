@@ -46,7 +46,7 @@
         </v-btn>
       </v-card-title>
 
-      <v-card-actions class="grey darken-3 justify-center">
+      <v-card-actions class="white darken-3 justify-center">
         &copy;2018 — <strong>Vuetify</strong>
       </v-card-actions>
     </v-card>
@@ -84,3 +84,4 @@
     }
   }
 </script>
+
