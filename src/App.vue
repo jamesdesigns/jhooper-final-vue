@@ -4,7 +4,8 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/layout">Layout</router-link> |
-      <router-link to="/test">Test</router-link> 
+      <router-link to="/test">Test</router-link> |
+      <router-link to="/login">Login</router-link>
     </div>
     <router-view/>
 
@@ -20,7 +21,7 @@
       tile
     >
       <v-card-title class="teal">
-        <strong class="subheading">Get Connected With Us!</strong>
+       
 
         <v-spacer></v-spacer>
 
@@ -35,7 +36,7 @@
         </v-btn>
       </v-card-title>
 
-      <v-card-actions class="dark darken-3 justify-center">
+      <v-card-actions class="black darken-3 justify-center">
         &copy;2018 — <strong>James Hooper</strong>
       </v-card-actions>
     </v-card>
