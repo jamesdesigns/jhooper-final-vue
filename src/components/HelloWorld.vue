@@ -10,7 +10,7 @@
 
       <v-parallax
     height="300"
-    src="https://cdn.vuetifyjs.com/images/parallax/material2.jpg"
+    src="https://artistjameshooper.com/stock-charts.jpg"
   ></v-parallax>
 
    <p>
