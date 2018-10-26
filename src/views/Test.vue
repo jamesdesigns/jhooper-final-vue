@@ -19,8 +19,8 @@
     </template>
     <template slot="items" slot-scope="props">
       <td>{{ props.item.name }}</td>
-      <td class="text-xs-right">{{ props.item.calories }}</td>
-      <td class="text-xs-right">{{ props.item.fat }}</td>
+      <td class="text-xs-right">{{ props.item.price }}</td>
+      <td class="text-xs-right">{{ props.item.volume }}</td>
       <td class="text-xs-right">{{ props.item.carbs }}</td>
       <td class="text-xs-right">{{ props.item.protein }}</td>
       <td class="text-xs-right">{{ props.item.iron }}</td>
@@ -33,7 +33,7 @@
 </template>
 <script>
   export default {
-    data () {
+  /*  data () {
       return {
         headers: [
           {
@@ -135,6 +135,121 @@
             name: 'KitKat',
             calories: 518,
             fat: 26.0,
+            carbs: 65,
+            protein: 7,
+            iron: '6%'
+          }
+        ]
+      }
+    }
+  }
+  */
+
+
+
+
+  data () {
+      return {
+        headers: [
+          {
+            text: 'MOST ACTIVE STOCKS',
+            align: 'left',
+            sortable: false,
+            value: 'name'
+          },
+          { text: 'Price', value: 'price' },
+          { text: 'Volume', value: 'volume' },
+          { text: 'Carbs (g)', value: 'carbs' },
+          { text: 'Protein (g)', value: 'protein' },
+          { text: 'Iron (%)', value: 'iron' }
+        ],
+        desserts: [
+          {
+            value: false,
+            name: 'Advanced Micro Devices Inc.',
+            price: 19.27,
+            volume: 6.0,
+            carbs: 24,
+            protein: 4.0,
+            iron: '1%'
+          },
+          {
+            value: false,
+            name: 'Ford Motor Company',
+            price: 8.99,
+            volume: 9.0,
+            carbs: 37,
+            protein: 4.3,
+            iron: '1%'
+          },
+          {
+            value: false,
+            name: 'General Electric Company',
+            price: 11.8,
+            volume: 16.0,
+            carbs: 23,
+            protein: 6.0,
+            iron: '7%'
+          },
+          {
+            value: false,
+            name: 'Twitter Inc.',
+            price: 31.8,
+            volume: 3.7,
+            carbs: 67,
+            protein: 4.3,
+            iron: '8%'
+          },
+          {
+            value: false,
+            name: 'AT&T Inc.',
+            price: 29.98,
+            volume: 16.0,
+            carbs: 49,
+            protein: 3.9,
+            iron: '16%'
+          },
+          {
+            value: false,
+            name: 'Ambev S.A.',
+            price: 4.04,
+            volume: 0.0,
+            carbs: 94,
+            protein: 0.0,
+            iron: '0%'
+          },
+          {
+            value: false,
+            name: 'Bank of America Corporation',
+            price: 26.59,
+            volume: 0.2,
+            carbs: 98,
+            protein: 0,
+            iron: '2%'
+          },
+          {
+            value: false,
+            name: 'Microsoft Corporation',
+            price: 108.3,
+            volume: 3.2,
+            carbs: 87,
+            protein: 6.5,
+            iron: '45%'
+          },
+          {
+            value: false,
+            name: 'Goldcorp Inc.',
+            price: 8.49,
+            volume: 25.0,
+            carbs: 51,
+            protein: 4.9,
+            iron: '22%'
+          },
+          {
+            value: false,
+            name: 'Intel Corporation',
+            price: 44.31,
+            volume: 26.0,
             carbs: 65,
             protein: 7,
             iron: '6%'

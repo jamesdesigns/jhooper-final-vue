@@ -20,7 +20,7 @@
       flat
       tile
     >
-      <v-card-title class="teal">
+      <v-card-title class="grey lighten-1">
        
 
         <v-spacer></v-spacer>
@@ -37,7 +37,7 @@
       </v-card-title>
 
       <v-card-actions class="black darken-3 justify-center">
-        &copy;2018 — <strong>James Hooper</strong>
+        &copy;2018 — <strong>Stock Charts</strong>
       </v-card-actions>
     </v-card>
   </v-footer>

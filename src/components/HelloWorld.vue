@@ -2,14 +2,13 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      Search for the most active stock charts and find the best opportunities.<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+      Search for the most active stock charts and find the best opportunities<br>
+      to trade stocks and build a higher net worth.
     </p>
   
 
       <v-parallax
-    height="300"
+    height="350"
     src="https://artistjameshooper.com/stock-charts.jpg"
   ></v-parallax>
 
@@ -24,10 +23,7 @@
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
 
-          <v-parallax
-    height="300"
-    src="https://cdn.vuetifyjs.com/images/parallax/material2.jpg"
-  ></v-parallax>
+
     
   </div>
 </template>
