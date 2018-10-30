@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Stock Charts"/>
+    <HelloWorld msg="Create a To Do List"/>
   </div>
 </template>
 
