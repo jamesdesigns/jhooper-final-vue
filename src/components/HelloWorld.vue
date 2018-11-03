@@ -12,16 +12,11 @@
     src="https://artistjameshooper.com/stock-charts.jpg"
   ></v-parallax>
 
+
    <p>
-      For guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+     Create more tasks and help get more work done, by using this simple to use To Do list.
     </p>
-       <p>
-      For guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
+
 
 
     
@@ -46,11 +41,25 @@ ul {
   list-style-type: none;
   padding: 0;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
+
 a {
   color: #42b983;
+}
+
+li {
+    display: inline-block;
+  margin: 0 10px;
+  list-style-type: none;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  padding: 5%;
+  border-radius: 25px;
+  margin: 3%;
+}
+span {
+  color: teal;
 }
 </style>
