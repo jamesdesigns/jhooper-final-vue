@@ -2,8 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      Search for the most active stock charts and find the best opportunities<br>
-      to trade stocks and build a higher net worth.
+      Set new goals and become more productive and feel good about your accomplishments.
     </p>
   
 
@@ -14,7 +13,7 @@
 
 
    <p>
-     Create more tasks and help get more work done, by using this simple to use To Do list.
+     Create more goals and help get more work done, by using this simple to use Goal Setter.
     </p>
 
 

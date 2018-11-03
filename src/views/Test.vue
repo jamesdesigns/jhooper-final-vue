@@ -21,7 +21,7 @@
         <v-btn icon>
           <v-icon>mdi-menu</v-icon>
         </v-btn>
-        <h3 class="title font-weight-light text-xs-center grow">To Do List</h3>
+        <h3 class="title font-weight-light text-xs-center grow">Set New Goals</h3>
         <v-avatar>
           <v-img src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light"></v-img>
         </v-avatar>
