@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Create a To Do List"/>
+    <HelloWorld msg="Create New Goals"/>
   </div>
 </template>
 
