@@ -1,26 +1,33 @@
 <template>
   <div class="container">
       <div class="row">
-          <v-layout>
+          
               <h1>Animations</h1>
               <hr>
+              
               <button @click="show = !show">Show Alert</button>
               <br><br>
+              
+              <v-card>
               <transition name="fade">
               <div class="" v-if="show">This is some Info</div>
               </transition>
+              </v-card>
+              <v-card>
               <transition name="slide" type="animation">
               <div class="" v-if="show">This is some Info</div>
               </transition>
+              </v-card>
+              <v-card>
               <transition 
               appear
               enter-active-class="animated bounce"
               leave-active-class="animated shake"
-              
               >
               <div class="" v-if="show">This is some Info</div>
               </transition>
-          </v-layout>
+              </v-card>
+
           </div>
   </div>
 </template>
