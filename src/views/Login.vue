@@ -1,5 +1,6 @@
 <template>
-    <v-container grid-list-md>
+<div>
+   <!-- <v-container grid-list-md>
         <v-layout justify-center>
                <v-flex xs6>
                 <v-card>
@@ -19,7 +20,7 @@
                     label="Error"
                     v-model="password"
                     :type="show1 ? 'text' : 'password'">
-                    :rules="[rules.required.min]"
+                    :rules="[rules.required.Min]"
                     validate-on-blur
                     error
                     value="PA"
@@ -36,9 +37,9 @@
                 </div>
         </v-layout>
     </v-container>
-
+-->
    
-<!-- <v-layout row justify-center>
+ <v-layout row justify-center>
     <v-dialog v-model="dialog" persistent max-width="600px">
       <v-btn slot="activator" color="primary" dark>Login</v-btn>
       <v-card>
@@ -68,10 +69,11 @@
       </v-card>
     </v-dialog>
   </v-layout>
--->
 
+</div>
 </template>
 <script>
+/*
  export default {
     data () {
         return {
@@ -93,18 +95,18 @@
 
     methods: {
         onSubmit() {
-            console.log('Thanks for submitting!)
+            console.log('Thanks for submitting!')
         }
     }
 }
+*/
 
-/*
  export default {
     data: () => ({
       dialog: false
     })
   }
-  */
+  
 </script>
 <style scoped>
 
