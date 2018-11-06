@@ -4,21 +4,10 @@
     <p>
       Set new goals and become more productive and feel good about your accomplishments.
     </p>
-  
-
-      <v-parallax
-    height="350"
-    src="https://artistjameshooper.com/stock-charts.jpg"
-  ></v-parallax>
-
 
    <p>
      Create more goals and help get more work done, by using this simple to use Goal Setter.
     </p>
-
-
-
-    
   </div>
 </template>
 

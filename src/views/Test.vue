@@ -27,29 +27,10 @@
               <div class="box" v-if="show">This is some Info</div>
               </transition>
           </div>
-
-        <div class="row">
-            <app-goal-grid :goals="goals"></app-goal-grid>
-          </div>  
   </div>
 </template>
 <script>
-import GoalGrid from './components/GoalGrid.vue';
 
-  export default {
-      data() {
-          return {
-              goals: [
-                  'This is a Goal.'
-              ],
-              maxGoals: 15,
-              show: true
-          }
-      },
-      components: {
-          appGoalGrid: GoalGrid
-      }
-}
 </script>
 <style>
 .box {
@@ -68,7 +49,7 @@ import GoalGrid from './components/GoalGrid.vue';
 }
 
 .fade-leave {
-    /*opacity: 1;*/
+    opacity: 1;
 }
 
 .fade-leave-active {
@@ -87,7 +68,7 @@ import GoalGrid from './components/GoalGrid.vue';
 }
 
 .slide-leave {
-
+    transition: opacity 1s;
 }
 
 .slide-leave-active {
