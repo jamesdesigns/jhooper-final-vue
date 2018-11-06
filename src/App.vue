@@ -7,28 +7,24 @@
       <router-link to="/test">Test</router-link> |
       <router-link to="/login">Login</router-link>
     </div>
+    
     <router-view/>
+    <app-new-goal></app-new-goal>
+    <app-goal-grid :goals="goals"></app-goal-grid>
   </div>
 </template>
 
 <script>
-import GoalGrid from './views/GoalGrid.vue';
+
 
  export default {
     data: () => ({ 
-      goals: [
-        'First Goal is too start'
-          ],
-      maxGoals: 15,
       links: [
         'Home',
         'About Us',
         'Layout',
         'Test'
-      ],
-      components: {
-        appGoalGrid: GoalGrid
-      }
+      ]
     })
   }
 </script>
