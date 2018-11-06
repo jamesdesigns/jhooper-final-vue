@@ -3,44 +3,61 @@
       <div class="row">
           
               <h1>Animations</h1>
-              <hr>
+              
               
               <button @click="show = !show">Show Alert</button>
               <br><br>
               
-              <v-card>
+              
               <transition name="fade">
-              <div class="" v-if="show">This is some Info</div>
+              <div class="box" v-if="show">This is some Info</div>
               </transition>
-              </v-card>
-              <v-card>
+             
+              
               <transition name="slide" type="animation">
-              <div class="" v-if="show">This is some Info</div>
+              <div class="box" v-if="show">This is some Info</div>
               </transition>
-              </v-card>
-              <v-card>
+              
+              
               <transition 
               appear
-              enter-active-class="animated bounce"
+              enter-active-class="animated fadeIn"
               leave-active-class="animated shake"
               >
-              <div class="" v-if="show">This is some Info</div>
+              <div class="box" v-if="show">This is some Info</div>
               </transition>
-              </v-card>
+             
 
           </div>
+
+        <div class="row">
+
+
+
+          </div>  
+
+
   </div>
 </template>
 <script>
   export default {
       data() {
           return {
+              goals: [],
+              maxGoals: 15,
               show: true
           }
       }
 }
 </script>
 <style>
+.box {
+    background-color: #cccccc;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
 .fade-enter {
     opacity: 0;
 }

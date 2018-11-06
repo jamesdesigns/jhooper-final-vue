@@ -12,14 +12,23 @@
 </template>
 
 <script>
+import GoalGrid from './views/GoalGrid.vue';
+
  export default {
     data: () => ({ 
+      goals: [
+        'First Goal is too start'
+          ],
+      maxGoals: 15,
       links: [
         'Home',
         'About Us',
         'Layout',
         'Test'
-      ]
+      ],
+      components: {
+        appGoalGrid: GoalGrid
+      }
     })
   }
 </script>
