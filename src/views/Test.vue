@@ -26,27 +26,28 @@
               >
               <div class="box" v-if="show">This is some Info</div>
               </transition>
-             
-
           </div>
 
         <div class="row">
-
-
-
+            <app-goal-grid :goals="goals"></app-goal-grid>
           </div>  
-
-
   </div>
 </template>
 <script>
+import GoalGrid from './components/GoalGrid.vue';
+
   export default {
       data() {
           return {
-              goals: [],
+              goals: [
+                  'This is a Goal.'
+              ],
               maxGoals: 15,
               show: true
           }
+      },
+      components: {
+          appGoalGrid: GoalGrid
       }
 }
 </script>
