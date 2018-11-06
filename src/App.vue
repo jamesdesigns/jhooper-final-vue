@@ -7,16 +7,11 @@
       <router-link to="/test">Test</router-link> |
       <router-link to="/login">Login</router-link>
     </div>
-    
     <router-view/>
-    <app-new-goal></app-new-goal>
-    <app-goal-grid :goals="goals"></app-goal-grid>
   </div>
 </template>
 
 <script>
-
-
  export default {
     data: () => ({ 
       links: [
