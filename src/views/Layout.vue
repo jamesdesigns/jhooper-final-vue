@@ -6,7 +6,8 @@
   <v-content>
     <v-container fluid>
 
-        <div>My content goes here</div>
+        <div v-box-shadow:offset.blur="3">My content goes here</div>
+
       <router-view>Router-View</router-view>
     </v-container>
   </v-content>
@@ -19,10 +20,6 @@
     data () {
       return {
         drawer: null,
-        items: [
-          { title: 'Home', icon: 'dashboard' },
-          { title: 'About', icon: 'question_answer' }
-        ]
       }
     }
   }
