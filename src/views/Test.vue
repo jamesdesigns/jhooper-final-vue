@@ -2,20 +2,20 @@
   <div class="container">
       <div class="row">
           
-              <h1>Animations</h1>
+              <h1>Summary of Goals</h1>
               
               
-              <button @click="show = !show">Show Alert</button>
+              <button @click="show = !show">Show Goals</button>
               <br><br>
               
               
               <transition name="fade">
-              <div class="box" v-if="show">This is some Info</div>
+              <div class="box" v-if="show">Finish the New Vue Project</div>
               </transition>
              
               
               <transition name="slide" type="animation">
-              <div class="box" v-if="show">This is some Info</div>
+              <div class="box" v-if="show">Code for 100 days in a row</div>
               </transition>
               
               
@@ -24,13 +24,19 @@
               enter-active-class="animated fadeIn"
               leave-active-class="animated shake"
               >
-              <div class="box" v-if="show">This is some Info</div>
+              <div class="box" v-if="show">Land a Job with Adobe</div>
               </transition>
           </div>
   </div>
 </template>
 <script>
-
+  export default {
+      data() {
+          return {
+              show: true
+          }
+      }
+}
 </script>
 <style>
 .box {

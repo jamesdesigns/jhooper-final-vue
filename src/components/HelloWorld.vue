@@ -2,12 +2,10 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      Set new goals and become more productive and feel good about your accomplishments.
+      Set new goals and become more productive.
     </p>
 
-   <p>
-     Create more goals and help get more work done, by using this simple to use Goal Setter.
-    </p>
+
   </div>
 </template>
 
