@@ -8,12 +8,12 @@
       <router-link to="/login">Login</router-link>
     </div>
 
+
+    <router-view/>
     <!-- NEW -->
     <div id="app" class="container">
       <goal-list></goal-list>
     </div>
-    <router-view/>
-
 
   </div>
 </template>
@@ -65,13 +65,14 @@ import GoalList from './components/GoalList'
   color: #42b983;
 }
 
-/* NEW */
+/* NEW 
 * {
   box-sizing: border-box;
 }
-/* NEW */
+NEW 
 .container {
   max-width: 600px;
   margin: 0 auto;
 }
+*/
 </style>
